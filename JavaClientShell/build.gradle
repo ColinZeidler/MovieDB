@@ -6,7 +6,8 @@ version = '0.5'
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'MovieDB Console UI', 'Implementation-Version': version
+        attributes 'Implementation-Title': 'MovieDB Console UI', 'Implementation-Version': version,
+            'Main-Class': 'moviedb.MovieDB'
     }
 }
 
