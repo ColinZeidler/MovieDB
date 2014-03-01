@@ -1,2 +1,4 @@
 Manifest-Version: 1.0
+Implementation-Title: MovieDB Console UI
+Implementation-Version: 0.5
 

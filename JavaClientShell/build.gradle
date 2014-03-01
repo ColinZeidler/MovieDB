@@ -1,1 +1,24 @@
 apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.7
+version = '0.5'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'MovieDB Console UI', 'Implementation-Version': version
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/moviedb'
+        }
+    }
+    test {
+        java {
+            srcDir 'test/moviedb'
+        }
+    }
+}
