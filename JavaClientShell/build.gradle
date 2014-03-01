@@ -13,12 +13,12 @@ jar {
 sourceSets {
     main {
         java {
-            srcDir 'src/moviedb'
+            srcDir 'src'
         }
     }
     test {
         java {
-            srcDir 'test/moviedb'
+            srcDir 'test'
         }
     }
 }
