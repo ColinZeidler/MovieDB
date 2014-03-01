@@ -38,8 +38,12 @@ public class Controller {
                 case LIST_MOVIE:
                     listMovies();
                     break;
+                default:
+                	break;
             }
         }while (response != MenuEnum.EXIT);
+        
+        ui.close();
     }
     
     /**

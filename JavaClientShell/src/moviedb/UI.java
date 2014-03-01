@@ -18,9 +18,20 @@ public class UI {
 
     /**
      * constructs the scanner that will be used to get user input
+     * 
+     * call close to ensure that there is no resource leak from leaving the scanner open
      */
-    public UI() {
+    @SuppressWarnings("resource")
+	public UI() {
         input = new Scanner(System.in).useDelimiter(System.lineSeparator());
+    }
+    
+    /**
+     * used to clean up after the UI, 
+     * closes the Scanner
+     */
+    public void close() {
+    	input.close();
     }
 
     /**
