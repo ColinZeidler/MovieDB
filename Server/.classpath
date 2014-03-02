@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry kind="lib" path="/home/colin/git-work/MovieDB/Server/unresolved dependency - org.springframework.boot spring-boot-starter-web 1.0.0.RC3" exported="true"/>
+	<classpathentry kind="lib" path="/home/colin/git-work/MovieDB/Server/unresolved dependency - com.fasterxml.jackson.core jackson-databind 2.3.1" exported="true"/>
+	<classpathentry kind="lib" path="/home/colin/git-work/MovieDB/Server/unresolved dependency - junit junit 4.11" exported="true"/>
+</classpath>
