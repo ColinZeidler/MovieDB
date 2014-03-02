@@ -3,7 +3,7 @@ bin/
 
 # Java stuff
 *.class
-#*.project
+*.project
 
 # Package Files #
 *.jar
