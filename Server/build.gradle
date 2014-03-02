@@ -18,7 +18,12 @@ version = '0.5'
 
 jar {
     baseName = 'moviedb-rest-server'
-    version = '0.1.0'
+    version = '0.5'
+}
+
+repositories {
+    mavenCentral()
+    maven { url "http://repo.spring.io/libs-snapshot" }
 }
 
 dependencies {
