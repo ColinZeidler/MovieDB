@@ -6,11 +6,13 @@
 
 package moviedb;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 /**
  *
  * @author Colin
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Movie {
     private final String title;
     private final int year;
@@ -23,6 +25,13 @@ public class Movie {
      * @param year: the year of the movie
      * @param genre: the genre for the movie
      */
+    public Movie() {
+        title = "";
+        year = 0;
+        genre = GenreEnum.SF;
+    
+    }
+
     public Movie(String title, int year, GenreEnum genre) {
         this.title = title;
         this.year = year;
