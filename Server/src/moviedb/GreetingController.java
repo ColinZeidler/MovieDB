@@ -10,10 +10,11 @@ import org.springframework.web.bind.annotation.ResponseBody;;
 @Controller
 public class GreetingController {
     
-    private ArrayList<Movie> list;
+    private Storage db;
 
     public GreetingController() {
-        list = new ArrayList<Movie>();
+        db = new Storage();
+        ArrayList<Movie> list = new ArrayList<Movie>();
 
         Movie m1 = new Movie("Speeder", 2000, GenreEnum.DRAMA);
         Movie m2 = new Movie("Die Hard", 2005, GenreEnum.ACTION);
@@ -22,6 +23,8 @@ public class GreetingController {
         list.add(m1);
         list.add(m2);
         list.add(m3);
+
+        db.update(ActionEnum.ADD, list);
     }
 
     @RequestMapping("/greeting")
@@ -36,6 +39,6 @@ public class GreetingController {
 
     @RequestMapping("/movies")
     public @ResponseBody ArrayList<Movie> movies() {
-        return list;
+        return db.retrieve();
     }
 }
