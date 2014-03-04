@@ -1,12 +1,10 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 
-sourceCompatibility = 1.7
-version = '0.5'
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'MovieDB Console UI', 'Implementation-Version': version,
+        attributes 'Implementation-Title': 'MovieDB Console UI', 'Implementation-Version': '0.5',
             'Main-Class': 'moviedb.MovieDB'
     }
 }
