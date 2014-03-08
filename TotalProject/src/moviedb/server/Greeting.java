@@ -1,4 +1,5 @@
-package moviedb;
+package moviedb.server;
+import moviedb.data.*;
 
 public class Greeting {
     

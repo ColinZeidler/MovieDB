@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 
-package moviedb;
+package moviedb.client;
+import moviedb.data.*;
 
 import java.util.ArrayList;
 

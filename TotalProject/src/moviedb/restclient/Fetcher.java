@@ -1,4 +1,5 @@
-package moviedb;
+package moviedb.restclient;
+import moviedb.data.*;
 
 import java.util.List;
 import java.util.ArrayList;

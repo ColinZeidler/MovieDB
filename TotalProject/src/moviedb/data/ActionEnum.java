@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package moviedb;
+package moviedb.data;
 
 /**
  * The different actions that can be taken when interacting with the database

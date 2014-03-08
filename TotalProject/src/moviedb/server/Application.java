@@ -1,4 +1,5 @@
-package moviedb;
+package moviedb.server;
+import moviedb.data.*;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.SpringApplication;

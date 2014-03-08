@@ -1,4 +1,6 @@
-package moviedb;
+package moviedb.restclient;
+
+import moviedb.data.*;
 
 public class Application {
     public static void main(String[] args) {
