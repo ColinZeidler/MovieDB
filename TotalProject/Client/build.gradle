@@ -1,8 +1,14 @@
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+}
 
 jar {
+    baseName = 'MovieDb-Client'
+    version = '1.0'
     manifest {
-        attributes 'Implementation-Title': 'MovieDB Console UI', 'Implementation-Version': '0.5',
-            'Main-Class': 'moviedb.client.MovieDB'
+        attributes 'Main-Class': 'moviedb.client.MovieDB'
     }
 }
 
