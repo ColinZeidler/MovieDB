@@ -1,0 +1,11 @@
+task server <<{
+    println "server"
+}
+
+task client <<{
+    println "client"
+}
+
+task restclient <<{
+    println "rest client"
+}
