@@ -1,0 +1,24 @@
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'MovieDB Console UI', 'Implementation-Version': '0.5',
+            'Main-Class': 'moviedb.MovieDB'
+    }
+}
+
+dependencies {
+    compile project(":Common")
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+    test {
+        java {
+            srcDir 'test'
+        }
+    }
+}

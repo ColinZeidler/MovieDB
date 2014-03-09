@@ -1,14 +1,12 @@
-apply plugin: 'eclipse'
-apply plugin: 'java'
+subprojects {
+    apply plugin: 'eclipse'
+    apply plugin: 'java'
 
-task server <<{
-    println "server"
-}
+    repositories {
+        mavenCentral()
+    }
 
-task client <<{
-    println "client"
-}
-
-task restclient <<{
-    println "rest client"
+    dependencies {
+        testCompile("junit:junit:4.+")
+    }
 }
