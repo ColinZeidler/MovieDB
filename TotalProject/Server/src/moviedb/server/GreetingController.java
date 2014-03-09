@@ -1,10 +1,12 @@
-package moviedb;
+package moviedb.server;
+
+import moviedb.data.*;
 
 import java.util.ArrayList;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class GreetingController {
