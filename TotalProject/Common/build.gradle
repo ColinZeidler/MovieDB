@@ -1,3 +1,9 @@
+
+jar {
+    baseName = 'moviedb-common'
+    version = '1.0'
+}
+
 sourceSets {
     main {
         java {
