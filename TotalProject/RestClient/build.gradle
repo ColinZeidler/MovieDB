@@ -15,7 +15,7 @@ jar {
     baseName = 'movie-list-getter'
     version = '0.1.0'
     manifest {
-        attributes 'Main-Class': 'moviedb.Application'
+        attributes 'Main-Class': 'moviedb.restclient.Application'
     }
 }
 
