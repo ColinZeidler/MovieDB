@@ -5,7 +5,7 @@
  */
 
 package moviedb.client;
-import Common.moviedb.data.*;
+import moviedb.data.*;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

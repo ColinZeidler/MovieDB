@@ -2,7 +2,7 @@
 jar {
     manifest {
         attributes 'Implementation-Title': 'MovieDB Console UI', 'Implementation-Version': '0.5',
-            'Main-Class': 'moviedb.MovieDB'
+            'Main-Class': 'moviedb.client.MovieDB'
     }
 }
 
