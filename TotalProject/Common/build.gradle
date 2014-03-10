@@ -3,16 +3,3 @@ jar {
     baseName = 'moviedb-common'
     version = '1.0'
 }
-
-sourceSets {
-    main {
-        java {
-            srcDir 'src'
-        }
-    }
-    test {
-        java {
-            srcDir 'test'
-        }
-    }
-}

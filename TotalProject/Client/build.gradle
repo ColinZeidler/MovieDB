@@ -5,7 +5,7 @@ buildscript {
 }
 
 jar {
-    baseName = 'MovieDb-Client'
+    baseName = 'MovieDB-Client'
     version = '1.0'
     manifest {
         attributes 'Main-Class': 'moviedb.client.MovieDB'
@@ -14,17 +14,4 @@ jar {
 
 dependencies {
     compile project(":Common")
-}
-
-sourceSets {
-    main {
-        java {
-            srcDir 'src'
-        }
-    }
-    test {
-        java {
-            srcDir 'test'
-        }
-    }
 }

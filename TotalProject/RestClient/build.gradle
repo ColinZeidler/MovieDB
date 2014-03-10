@@ -30,16 +30,3 @@ dependencies {
 
     compile project(":Common")
 }
-
-sourceSets {
-    main {
-        java {
-            srcDir 'src'
-        }
-    }
-    test {
-        java {
-            srcDir 'test'
-        }
-    }
-}

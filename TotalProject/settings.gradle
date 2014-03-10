@@ -1,1 +1,1 @@
-include 'Client', 'Common', 'RestClient', 'Server'
+include 'Common', 'Client', 'RestClient', 'Server'
