@@ -5,7 +5,6 @@
  */
 
 package moviedb.client;
-import moviedb.data.*;
 
 /**
  *
