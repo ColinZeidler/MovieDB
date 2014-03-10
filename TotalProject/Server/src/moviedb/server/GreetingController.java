@@ -1,6 +1,9 @@
 package moviedb.server;
 
-import moviedb.data.*;
+import moviedb.data.Movie;
+import moviedb.data.ActionEnum;
+import moviedb.data.GenreEnum;
+import moviedb.data.Storage;
 
 import java.util.ArrayList;
 import org.springframework.stereotype.Controller;
