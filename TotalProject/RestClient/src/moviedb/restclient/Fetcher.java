@@ -1,7 +1,7 @@
 package moviedb.restclient;
 
 import moviedb.data.Movie;
-import moviebd.data.Storage;
+import moviedb.data.Storage;
 
 import java.util.List;
 import java.util.ArrayList;
