@@ -10,6 +10,9 @@ buildscript {
 
 apply plugin: 'idea'
 apply plugin: 'spring-boot'
+apply plugin: 'application'
+
+mainClassName = "moviedb.restclient.Application"
 
 jar {
     baseName = 'movie-list-getter'

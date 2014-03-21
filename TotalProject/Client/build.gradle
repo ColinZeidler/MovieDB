@@ -4,6 +4,9 @@ buildscript {
     }
 }
 
+apply plugin: "application"
+mainClassName = "moviedb.client.MovieDB"
+
 jar {
     baseName = 'MovieDB-Client'
     version = '1.0'
