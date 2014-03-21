@@ -5,7 +5,6 @@
  */
 
 package moviedb.client;
-import moviedb.data.*;
 
 /**
  * The different choices that the user can make in the main menu
